@@ -28,3 +28,6 @@ with st.form(key='gpu_calculator'):
         A, H = calculate_gpus(tokens, hours, epochs, model_size)
         st.markdown(f'**Number of A100 GPUs needed: {A}**')
         st.markdown(f'**Number of H100 GPUs needed: {H}**')
+
+# Put github link at the bottom https://github.com/hunkim/llm_gpt_cal
+st.markdown('**Github:** https://github.com/hunkim/llm_gpt_cal')

@@ -26,8 +26,8 @@ with st.form(key='gpu_calculator'):
     # Calculate the number of GPUs needed
     if calculate:
         A, H = calculate_gpus(tokens, hours, epochs, model_size)
-        st.markdown(f'**Number of A100 GPUs needed: {A}**')
-        st.markdown(f'**Number of H100 GPUs needed: {H}**')
+        st.markdown(f'**Number of A100 (80G) GPUs needed: {A}**')
+        st.markdown(f'**Number of H100 (80G) GPUs needed: {H}**')
 
 # Put github link at the bottom https://github.com/hunkim/llm_gpt_cal
-st.markdown('**Github:** https://github.com/hunkim/llm_gpt_cal')
+st.markdown('**Github:** https://github.com/hunkim/llm_gpu_cal')

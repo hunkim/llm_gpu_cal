@@ -1,4 +1,4 @@
-# llm_gpt_cal
+# llm_gpu_cal
 Simple GPU calculator for your LLM pre-training and fine-tuning
 
 Demo: https://gpu.sung.devstage.ai/

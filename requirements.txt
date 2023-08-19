@@ -1,0 +1,3 @@
+streamlit
+pdf2image
+git+https://github.com/hunkimForks/ocr_client.git
